@@ -11,7 +11,7 @@
 
 ### Sobre o projeto
 
-<p> Projeto desenvolvido por equipe de Iniciação Científica bolsista do SUPER, parceria entre a Samsung e a Universidade Federal do Amazonas (UFAM) que visa estimular a capacitação e a pesquisa. Nele o usuário vai poder conhecer redes neurais, conhecer sobre FPGA utilizando VHDL para proramação, seguindo <b>trilhas de aprendizagem</b>. </p>
+<p> Projeto desenvolvido pela equipe de Iniciação Científica bolsista do SUPER, parceria entre a Samsung e a Universidade Federal do Amazonas (UFAM) que visa estimular a capacitação e a pesquisa. Nele o usuário vai poder conhecer redes neurais, conhecer sobre FPGA utilizando VHDL para proramação, seguindo <b>trilhas de aprendizagem</b>. </p>
 
 ### Construído com
 
