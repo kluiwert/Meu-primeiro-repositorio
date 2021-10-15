@@ -1,7 +1,7 @@
 
 
 <h1 align="center">
- <img src="https://github.com/carolsbraz/educational-armblock/blob/main/src/logo.png?raw=true" alt="logo" width="400">
+ <img src="https://github.com/carolsbraz/educational-armblock/blob/main/src/logo.png?raw=tru" alt="logo" width="400">
 </h1>
 <h3 align="center"> Teaching and learning in neural networks in FPGA using VHDL </h3>
 <p align="center">Sua plataforma de ensino e aprendizado de redes neurais em FPGA</p>
@@ -11,7 +11,7 @@
 
 ### Sobre o projeto
 
-<p> Projeto desenvolvido pela equipe de Iniciação Científica bolsista do SUPER, parceria entre a Samsung e a Universidade Federal do Amazonas (UFAM) que visa estimular a capacitação e a pesquisa. Nele o usuário vai poder conhecer redes neurais, conhecer sobre FPGA utilizando VHDL para proramação, seguindo <b>trilhas de aprendizagem</b>. </p>
+<p> Projeto desenvolvido pela equipe de Iniciação Científica bolsista do SUPER, em parceria com a Samsung e a Universidade Federal do Amazonas (UFAM) que visa estimular a capacitação e a pesquisa. Nele o usuário irá conhecer ao longo da <b>trilha de aprendizagem</b> contéudo sobre redes neurais, conhecer comando básicos sobre como programar em um FPGA em VHDl. </p>
 
 ### Construído com
 
