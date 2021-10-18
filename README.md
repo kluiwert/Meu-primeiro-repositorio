@@ -1,12 +1,12 @@
 
 
 <h1 align="center">
- <img src="https://github.com/carolsbraz/educational-armblock/blob/main/src/logo.png?raw=tru" alt="logo" width="400">
+ <img src="https://github.com/kluiwert/Meu-primeiro-repositorio/blob/main/public/img/mental-health.png" alt="logo" width="400">
 </h1>
 <h3 align="center"> Teaching and learning in neural networks in FPGA using VHDL </h3>
 <p align="center">Sua plataforma de ensino e aprendizado de redes neurais em FPGA</p>
 <p align="center">
-<a href="https://armblock.herokuapp.com/">Ver site</a> • Último deploy: 23/01/2021 22:40
+<a href="https://networkneural.herokuapp.com/">Ver site</a> • Último deploy: 18/10/2021 08:30
 </p>
 
 ### Sobre o projeto
