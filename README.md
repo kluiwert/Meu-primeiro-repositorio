@@ -1,15 +1,7 @@
 
 
-<<<<<<< Updated upstream
 <h1 align="center">
  <img src="https://github.com/kluiwert/Meu-primeiro-repositorio/blob/main/public/img/mental-health.png" alt="logo" width="400">
-=======
-<h1 align="center" >
- <img src="https://github.com/kluiwert/Meu-primeiro-repositorio/blob/main/public/img/logo-name.png"  alt="logo" width="100px ">
-</h1>
-<h1 align="center" >
-    <<img scr="https://github.com/kluiwert/Meu-primeiro-repositorio/blob/main/public/img/NEURAL%20NETWORK%20IN%20FPGA.png" alt="logo">
->>>>>>> Stashed changes
 </h1>
 <h3 align="center"> Teaching and learning in neural networks in FPGA using VHDL </h3>
 <p align="center">Sua plataforma de ensino e aprendizado de redes neurais em FPGA</p>
