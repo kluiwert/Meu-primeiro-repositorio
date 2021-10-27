@@ -1,7 +1,7 @@
 
 
 <h1 align="center">
- <img src="https://github.com/kluiwert/Meu-primeiro-repositorio/blob/Cont%C3%A9udo-html/public/img/logo.png" alt="logo" width="750">
+ <a href="#" class="logo"><i class="fab fa-neos"></i> Neural Network</a>
 </h1>
 <h3 align="center"> Teaching and learning in neural networks in FPGA using VHDL </h3>
 <p align="center">Sua plataforma de ensino e aprendizado de redes neurais em FPGA</p>
