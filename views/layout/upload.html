@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="/css/upload-file.css">
+  <title>Neural Network</title>
+  <link rel="shortcut icon" href="/img/logo-aba-html.png">
+</head>
+
+
+<body>
+
+<header class="header">
+
+<a href="/" class="logo"><i class="fab fa-neos"></i> Neural Network</a>
+
+<nav class="navbar">
+  <ul>
+    <li><a href="/">home</a></li>
+  </ul>
+</nav>
+
+
+</header>
+
+<section id="home" class="home">
+  <h1>Faça o update da sua imagem</h1>
+
+  <form action="/upload" method="post" enctype="multipart/form-data">
+      <input type="file" name="avatar" multiple/>
+      <button>Enviar</button>
+    </form>
+    
+
+<div class="fas fa-cog nut1"></div>
+<div class="fas fa-cog nut2"></div>
+<ul class="squares"></ul>
+</section>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script src="/js/main.js"></script>
+<script src="/js/script.js"></script>
+<script src="/routes/upload.js"></script>
+  
+</body>
+</html>
