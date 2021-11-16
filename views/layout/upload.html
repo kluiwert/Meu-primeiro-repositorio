@@ -28,12 +28,18 @@
 </header>
 
 <section id="home" class="home">
-  <h1>Faça o update da sua imagem</h1>
 
-  <form action="/upload" method="post" enctype="multipart/form-data">
-      <input type="file" name="avatar" multiple/>
-      <button>Enviar</button>
-    </form>
+  <form  class="drop-zone" action="/upload" method="post" enctype="multipart/form-data">
+    <div class="container">
+      <div class="icon">
+        <i  class="fas fa-cloud-upload-alt"></i>
+      </div>
+      <h3>Faça o upload da sua imagem</h3>
+      <label for="file">Escolher arquivo &#187</label>
+      <input id="file" type="file" name="avatar" multiple/>
+    </div>
+    <button class="btn">Enviar</button>
+  </form>
     
 
 <div class="fas fa-cog nut1"></div>
@@ -47,7 +53,7 @@
 
 <script src="/js/main.js"></script>
 <script src="/js/script.js"></script>
-<script src="/routes/upload.js"></script>
+
   
 </body>
 </html>

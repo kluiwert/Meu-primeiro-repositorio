@@ -81,6 +81,86 @@ html::-webkit-scrollbar {
   overflow: hidden !important;
 }
 
+.home .drop-zone .container{
+  border: 3px dashed rgba(203, 212, 216, 0.904);
+  height: 350px;
+  width: 500px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.home .drop-zone .container .icon{
+  font-size: 70px;
+  color: rgba(203, 212, 216, 0.904);
+}
+
+.home .drop-zone .container h3{
+  font-size: 18px;
+  color: #fff;
+}
+
+.home .drop-zone .container input[type="file"] {
+  display: none;
+}
+
+.home .drop-zone .container label{
+  height: 3rem;
+  width: 23rem;
+  background-color: rgb(198, 220, 248);
+  color: black;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  margin-top: 1rem;
+  font-size: 1.9rem;
+  font-weight: 400;
+  border-radius: 15px;
+  transition-duration: 0.4s;
+}
+
+.home .drop-zone .container label:hover{
+  background-color: #fff; 
+  color: black;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.30);
+}
+
+.home .drop-zone .container label:active {
+  background-color: #b1ffee;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.home .drop-zone .btn{
+  height: 4rem;
+  width: 10rem;
+  background-color: rgb(198, 220, 248);
+  color: black;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  margin-top: 1rem;
+  font-size: 1.9rem;
+  font-weight: 400;
+  border-radius: 15px;
+  transition-duration: 0.4s;
+}
+
+.home .drop-zone .btn:hover{
+  background-color: #fff; 
+  color: black;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.30);
+}
+
+.home .drop-zone .btn:active {
+  background-color: #b1ffee;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
 
 .home .squares li { 
   width: 40px;
