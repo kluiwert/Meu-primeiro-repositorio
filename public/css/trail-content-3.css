@@ -59,7 +59,7 @@ div.blue-background {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: rgba(98, 151, 182, 0.774);
+  background-color: rgba(98, 151, 182, 0.774); 
   z-index: -10000;
   animation: colors 15s ease infinite;
 }
@@ -108,6 +108,7 @@ div.blue-background {
   margin-top: 30px;
 } 
 
+
 .header .logo{
   font-size: 3.5rem;
   color: white;
@@ -121,6 +122,7 @@ div.blue-background {
   list-style-type: none;
   display: flex;
   align-items: center;
+
 }
 
 .header .navbar ul li{
@@ -148,30 +150,28 @@ section.content {
   box-shadow: 1px 1px 4px 1px rgb(155, 155, 155);
 } 
 
-section.content h1 {
+section.content h1, h2 {
   text-align: center;
   width: 100%;
-  font-size: 3rem;
 }
 
-section.content h2 {
-  text-align: center;
-  width: 100%;
+section.content h1, h2 {
+  font-size: 3rem;
 }
 
 .content .texts .legend  {
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: justify;
 }
 
-section.content .texts .legend a{
-  margin-top: 30px;
+section.content .texts .legend p{
+  margin-top: 20px;
   font-size: 15px;
 }
+
 section.content .texts .legend img{
-  width: 400px;
+  width: 500px;
 }
 
 section.content p {
@@ -190,7 +190,16 @@ section.content p {
   cursor: pointer
 }
 
-/* responsividade */
+/* Responsividade */
+
+
+
+@media (max-width: 768px){
+  section.content .texts .legend img{
+    width: 540px;
+  }
+}
+
 @media (max-width: 660px){
   html{
     font-size: 50%;
@@ -260,4 +269,3 @@ section.content p {
     width: 260px;
   }
 }
-

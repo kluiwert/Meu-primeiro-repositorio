@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
 
 :root{
-  --color-blue:#6C5CE7;
+  --color-blue:rgba(30, 30, 136, 0.918);
   --color-white: #fff;
 }
 
@@ -70,7 +70,7 @@ html::-webkit-scrollbar {
 .home{
   min-height: 100vh;
   width: 100vw;
-  background-image: linear-gradient(purple, var(--color-blue));
+  background-image: linear-gradient( 45deg,purple, var(--color-blue));
   display: flex;
   align-items: center;
   justify-content: center;
@@ -79,17 +79,20 @@ html::-webkit-scrollbar {
   padding: 0 .1rem;
   position: relative;
   overflow: hidden !important;
+  animation: colors 15s ease infinite;
 }
 
-.home .drop-zone .container{
-  border: 3px dashed rgba(203, 212, 216, 0.904);
-  height: 350px;
-  width: 500px;
-  border-radius: 5px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+@keyframes colors{
+  0%{
+    background-position: 0% 50%;
+  }
+  100%{
+    background-position: 50% 50%;
+  }
+}
+
+.home .drop-zone{
+  flex-direction: flex;
 }
 
 .home .drop-zone .container .icon{
@@ -97,28 +100,30 @@ html::-webkit-scrollbar {
   color: rgba(203, 212, 216, 0.904);
 }
 
-.home .drop-zone .container h3{
+.home .drop-zone  .container h3{
   font-size: 18px;
   color: #fff;
 }
 
-.home .drop-zone .container input[type="file"] {
+.home .drop-zone  .container input[type="file"] {
   display: none;
 }
 
 .home .drop-zone .container label{
-  height: 3rem;
-  width: 23rem;
+  margin-right: 30px;
+  height: 5rem;
+  width: 26rem;
   background-color: rgb(198, 220, 248);
   color: black;
   cursor: pointer;
   border: none;
   outline: none;
   margin-top: 1rem;
-  font-size: 1.9rem;
+  font-size: 1.6rem;
   font-weight: 400;
   border-radius: 15px;
   transition-duration: 0.4s;
+  
 }
 
 .home .drop-zone .container label:hover{
@@ -134,7 +139,7 @@ html::-webkit-scrollbar {
 }
 
 .home .drop-zone .btn{
-  height: 4rem;
+  height: 3rem;
   width: 10rem;
   background-color: rgb(198, 220, 248);
   color: black;
@@ -142,19 +147,19 @@ html::-webkit-scrollbar {
   border: none;
   outline: none;
   margin-top: 1rem;
-  font-size: 1.9rem;
+  font-size: 1.6rem;
   font-weight: 400;
   border-radius: 15px;
   transition-duration: 0.4s;
 }
 
-.home .drop-zone .btn:hover{
+.home .drop-zone  .btn:hover{
   background-color: #fff; 
   color: black;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.30);
 }
 
-.home .drop-zone .btn:active {
+.home .drop-zone  .btn:active {
   background-color: #b1ffee;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
