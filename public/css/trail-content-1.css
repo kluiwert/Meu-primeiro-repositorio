@@ -14,7 +14,7 @@
 }
 
 html {
-  font-size: 63.5%;
+  font-size: 90%;
   position: relative;
   overflow-x: hidden;
   background-color: #F7F7F7;
@@ -109,7 +109,7 @@ div.blue-background {
 } 
 
 .header .logo{
-  font-size: 3.5rem;
+  font-size: 2rem;
   color: white;
 }
 
@@ -191,6 +191,7 @@ section.content p {
 }
 
 /* responsividade */
+
 @media (max-width: 660px){
   html{
     font-size: 50%;

@@ -14,7 +14,7 @@
 }
 
 html{
-  font-size: 62.5%;
+  font-size: 95%;
 }
 
 body{
@@ -137,8 +137,10 @@ html::-webkit-scrollbar {
 
 .home .slogan{
   color: #eee;
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 400;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .home .buttons{

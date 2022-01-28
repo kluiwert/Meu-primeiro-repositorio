@@ -14,7 +14,7 @@
 }
 
 html {
-   font-size: 65.5%;
+   font-size: 95%;
    overflow-x: hidden;
    background-color: #F7F7F7;
 }
@@ -73,7 +73,7 @@ header .brand {
 }
 
 header .brand .logo{
-   font-size: 3.5rem;
+   font-size: 3rem;
    color: black;
 }
 
@@ -209,12 +209,22 @@ section.content .imgtrail svg {
        height: auto;
        margin-top: 50px;
    }
-}
+   header {
+      justify-content: center;
+      flex-direction: column-reverse;
+  }
+  header .brand {
+      justify-content: center;
+      flex-direction: column;
+  }
+  header .brand .title {
+      text-align: center;
+  }
 
 @media (max-width: 320px) {
    section.content .imgtrail svg {
        width: 250px;
-   }
+   }   
 }
 
 @media (max-height: 565px) {
@@ -227,6 +237,6 @@ section.content .imgtrail svg {
    section.content {
        height: auto;
        margin-top: 30px;
-       margin-bottom: 30px
+       margin-bottom: 30px;
    }
 }
